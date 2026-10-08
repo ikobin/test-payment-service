@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     POSTGRES_DB: str = "payments_db"
     POSTGRES_HOST: str = "db"
     POSTGRES_PORT: int = 5432
+
+    API_KEY: str = "secret-static-api-key-12345"
     
     @property
     def database_url(self) -> str:
