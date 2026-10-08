@@ -1,0 +1,89 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================
+# Virtual environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+.python-version
+
+# ===========================
+# Pytest / coverage
+# ===========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# ===========================
+# mypy / ruff / black
+# ===========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.cache/
+
+# ===========================
+# IDE / редакторы
+# ===========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===========================
+# Environment / secrets
+# ===========================
+.env
+.env.*
+!.env.example
+*.local
+
+# ===========================
+# Логи и временные файлы
+# ===========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ===========================
+# Alembic
+# ===========================
+alembic/versions/__pycache__/
